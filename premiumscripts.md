@@ -6,12 +6,11 @@ end
 	local args = {
 		[1] = "SetTeam",
 		[2] = "Pirates"
-	}
-	game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args)) 
+	}	
 
 local Flux = loadstring(game:HttpGet"https://pastebin.com/raw/XLCrin0T")()
 
-local win = Flux:Window("Nxght hub", "BLOX FRUIT", Color3.fromRGB(156, 0, 255), Enum.KeyCode.RightControl)
+local win = Flux:Window("Nxght hub", "BLOX FRUIT", Color3.fromRGB(220, 176, 248), Enum.KeyCode.RightControl)
 local tgls = win:Tab("Auto Farm", "")
 local VirtualUser = game:GetService("VirtualUser")
 Firstsea = false
